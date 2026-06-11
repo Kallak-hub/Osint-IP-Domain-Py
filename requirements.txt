@@ -2,3 +2,5 @@ requests
 python-whois
 pyfiglet
 dnspython
+phonenumbers
+pycountry

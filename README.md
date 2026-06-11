@@ -12,6 +12,7 @@ Uma ferramenta de **OSINT (Open Source Intelligence)** iniciante desenvolvida em
 - 🔍 HTTP Headers Analysis
 - 🔓 Port Scanner (portas comuns abertas)
 - 📊 Geração de relatórios em JSON
+- 📱 Informações sobre número de telefone
 
 ---
 
@@ -24,6 +25,8 @@ Uma ferramenta de **OSINT (Open Source Intelligence)** iniciante desenvolvida em
 - pyfiglet
 - dnspython
 - OS module
+- phonenumbers
+- pycountry
 
 ---
 

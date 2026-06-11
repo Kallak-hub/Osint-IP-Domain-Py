@@ -6,7 +6,7 @@ from modules.whois_lookup import whois_lookup
 from modules.ip_lookup import ip_lookup
 from modules.headers import get_headers
 from modules.port_scan import port_scan
-
+from modules.phone_info import phone_info
 
 def limpar():
     os.system("cls" if os.name == "nt" else "clear")
@@ -26,6 +26,7 @@ def funcionar():
         print("[3] Geolocalizar IP")
         print("[4] HTTP Headers")
         print("[5] Port Scan")
+        print("[6] Phone Info")
         print("[0] Sair")
 
         opcao = input("\nEscolha uma opção: ")
@@ -50,6 +51,10 @@ def funcionar():
         elif opcao == "5":
             host = input("IP ou domínio: ")
             port_scan(host)
+
+        elif opcao == "6":
+            numero_input = input("Número de telefone (com código do país +): ")
+            phone_info(numero_input)
 
         elif opcao == "0":
             print("Encerrando...")
