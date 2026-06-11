@@ -1,6 +1,6 @@
 # Osint-IP-Domain-Py
 
-Uma ferramenta de **OSINT (Open Source Intelligence)** desenvolvida em Python para coleta e análise de informações públicas de domínios, IPs e redes.
+Uma ferramenta de **OSINT (Open Source Intelligence)** iniciante desenvolvida em Python para coleta e análise de informações públicas de domínios, IPs e redes.
 
 ---
 
