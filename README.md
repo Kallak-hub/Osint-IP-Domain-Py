@@ -34,3 +34,4 @@ Clone o repositório:
 ```bash
 git clone https://github.com/Kallak-hub/Osint-IP-Domain-Py.git
 cd Osint-IP-Domain-Py
+python main.py
