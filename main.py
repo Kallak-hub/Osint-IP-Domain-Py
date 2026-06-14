@@ -2,11 +2,12 @@ import pyfiglet
 import os
 
 from modules.dns_lookup import dns_lookup
+from modules.myip import mostrar_ip
 from modules.whois_lookup import whois_lookup
 from modules.ip_lookup import ip_lookup
 from modules.headers import get_headers
 from modules.port_scan import port_scan
-from modules.phone_info import phone_info
+from modules.phone_info import info_lookup 
 
 def limpar():
     os.system("cls" if os.name == "nt" else "clear")
@@ -27,6 +28,7 @@ def funcionar():
         print("[4] HTTP Headers")
         print("[5] Port Scan")
         print("[6] Phone Info")
+        print("[7] Show My IP")
         print("[0] Sair")
 
         opcao = input("\nEscolha uma opção: ")
@@ -38,7 +40,6 @@ def funcionar():
         elif opcao == "2":
             dominio = input("Domínio: ")
             whois_lookup(dominio)
-
 
         elif opcao == "3":
             ip = input("IP: ")
@@ -53,8 +54,11 @@ def funcionar():
             port_scan(host)
 
         elif opcao == "6":
-            numero_input = input("Número de telefone (com código do país +): ")
-            phone_info(numero_input)
+            phone_number = input("Número de telefone (com código do país +): ")
+            info_lookup(phone_number)
+
+        elif opcao == "7":
+            mostrar_ip()
 
         elif opcao == "0":
             print("Encerrando...")
