@@ -24,7 +24,6 @@ Uma ferramenta de **OSINT (Open Source Intelligence)** iniciante desenvolvida em
 - 📍 Geolocalização de IP
 - 🔍 HTTP Headers Analysis
 - 🔓 Port Scanner (portas comuns abertas)
-- 📊 Geração de relatórios em JSON
 - 📱 Informações sobre número de telefone
 
 ---
